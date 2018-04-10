@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/venus"
+    android:background="@drawable/jorgecisneros"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_gravity="center_horizontal|top"
-        android:layout_weight="20"
+        android:layout_weight="25"
         android:src="@drawable/ahorcado_0" />
 
     <LinearLayout
@@ -36,10 +36,12 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="A"
+            android:textColor="@android:color/holo_green_light"
+            android:textColorLink="@android:color/holo_blue_bright"
             android:textSize="24sp" />
 
         <Button
@@ -47,10 +49,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="B"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -58,10 +61,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="C"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -69,10 +73,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="D"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -80,10 +85,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="E"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -91,10 +97,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="F"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -102,10 +109,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="G"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
     </LinearLayout>
@@ -121,10 +129,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="H"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -132,10 +141,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="I"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -143,10 +153,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="J"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -154,10 +165,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="K"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -165,10 +177,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="L"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -176,10 +189,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="M"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -187,10 +201,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="N"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
     </LinearLayout>
@@ -206,10 +221,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="Ñ"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -217,10 +233,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="O"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -228,10 +245,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="P"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -239,10 +257,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="Q"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -250,10 +269,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="R"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -261,10 +281,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="S"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -272,10 +293,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="T"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
     </LinearLayout>
@@ -291,10 +313,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="U"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -302,10 +325,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="V"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -313,10 +337,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="W"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -334,10 +359,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="X"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
         <Button
@@ -345,10 +371,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/background_light"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="Y"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
 
 
@@ -357,10 +384,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@android:color/holo_red_dark"
+            android:background="@android:color/transparent"
             android:fontFamily="sans-serif"
             android:onClick="botonPulsado"
             android:text="Z"
+            android:textColor="@android:color/holo_green_light"
             android:textSize="24sp" />
     </LinearLayout>
 

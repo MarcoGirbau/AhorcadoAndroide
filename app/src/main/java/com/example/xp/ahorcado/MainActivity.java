@@ -71,6 +71,9 @@ public class MainActivity extends AppCompatActivity {
         if(!palabrasConGuiones.contains("_"))
         {
             imagenAhorcado.setImageResource(R.drawable.acertastetodo);
+            Intent intent = getIntent();
+            finish();
+            startActivity(intent);
         }
 
         textoGuiones.setText(palabrasConGuiones);
@@ -95,6 +98,12 @@ public class MainActivity extends AppCompatActivity {
                 default: imagenAhorcado.setImageResource(R.drawable.ahorcado_fin);
                 break;
             }
+        }
+        if(numerosFallos == 6)
+        {
+            Intent intent = getIntent();
+            finish();
+            startActivity(intent);
         }
     }
 
